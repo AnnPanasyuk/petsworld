@@ -3,10 +3,8 @@
   background: url("../img/404/error-bg.png") no-repeat 50% 100%;
   background-size: cover;
   .container {
-    width: 1000px;
-    margin: 0 auto;
     @media (min-width: 320px) and (max-width: 1367px) {
-      width: 80%;
+      width: 90%;
     }
   }
   .flex-ct1 {
