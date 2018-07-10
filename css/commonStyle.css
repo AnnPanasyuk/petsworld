@@ -1,0 +1,11 @@
+img {
+  pointer-events: none; }
+
+*:hover, *:focus, *:active {
+  outline: none; }
+
+a, button {
+  cursor: pointer;
+  text-decoration: none; }
+
+/*# sourceMappingURL=commonStyle.css.map */
