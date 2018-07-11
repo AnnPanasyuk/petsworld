@@ -1,0 +1,59 @@
+.advantages {
+  padding: 25px 0 50px;
+  .img-ct {
+    img {
+      display: block;
+      margin: 0 auto 45px;
+    }
+  }
+  .flex-ct {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 60px;
+  }
+  .text-ct {
+    width: 35%;
+    padding: 0 25px;
+    box-sizing: border-box;
+    p {
+      opacity: 0.67;
+      color: #08080b;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+  .top-ad {
+    border-right: 1px solid #cdcdcd;
+    h3 {
+      text-align: end;
+    }
+    p {
+      text-align: end;
+      line-height: 14.98px;
+    }
+  }
+  .advantages-ct {
+    border-left: 1px solid #cdcdcd;
+    ul {
+      margin: 0 0 0 15px;
+      li {
+        list-style-image: url("../img/how-to-sell-faster/check-mark.png");
+        p {
+          line-height: 19px;
+        }
+      }
+    }
+  }
+  h3 {
+    @extend %main_caption;
+    margin: 0 0 20px;
+  }
+  .big-img-ct {
+    width: 85%;
+    margin: 0 auto;
+     img {
+       width: 100%;
+     }
+  }
+}
