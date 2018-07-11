@@ -155,6 +155,10 @@ header {
         font-size: 14px;
         font-weight: 600;
         border: none;
+        transition: .3s;
+        &:hover {
+          color: #000;
+        }
       }
     }
   }
@@ -165,6 +169,7 @@ header {
     .desc-ct {
       background-color: #abcf36;
       width: 80%;
+      border-radius: 2px 0 0 2px;
       p {
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
@@ -178,6 +183,10 @@ header {
       background-color: #99ba2f;
       border-radius: 0 2px 2px 0;
       border: none;
+      transition: .3s;
+      &:hover {
+        opacity: .6;
+      }
     }
   }
 }
@@ -202,18 +211,95 @@ header {
       width: 25%;
       padding: 25px 30px 20px;
       box-sizing: border-box;
-      img {
-        display: block;
-        margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      .img-ct {
+        height: 50%;
+        margin: 0 0 15px;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
       }
       h3 {
-
+        color: #08080b;
+        font-family: 'PFDinDisplayPro-Regular', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        margin: 0 0 20px;
       }
       p {
-
+        text-align: center;
+        opacity: 0.67;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 0 30px;
       }
       a {
-        
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 14px 19px;
+        margin: 0 0 15px;
+        background-color: #ea9602;
+        align-self: center;
+        border-radius: 2px;
+        transition: .3s;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+  .actions-ct {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .card {
+      padding: 20px;
+      box-sizing: border-box;
+      width: 50%;
+      border: 1px solid #cdcdcd;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        margin: 60px 0 30px;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+      }
+      .btn-ct {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        box-shadow: inset 0 -2px 0 #99ba2f;
+        background-color: #abcf36;
+        border-radius: 2px;
+        .desc-ct {
+          p {
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 12px 30px;
+          }
+        }
+        button {
+          background-color: #99ba2f;
+          border-radius: 0 2px 2px 0;
+          border: none;
+          transition: .3s;
+          width: 40px;
+          &:hover {
+            opacity: .6;
+          }
+        }
       }
     }
   }
