@@ -3535,6 +3535,16 @@ readers do not read off random characters that represent icons */
   src: url("../fonts/PFDinDisplayPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinDisplayPro-Regular.woff") format("woff"), url("../fonts/PFDinDisplayPro-Regular.ttf") format("truetype"), url("../fonts/PFDinDisplayPro-Regular.svg#PFDinDisplayPro-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeue-Italic';
+  src: url("../fonts/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue-Italic.woff") format("woff"), url("../fonts/HelveticaNeue-Italic.ttf") format("truetype"), url("../fonts/HelveticaNeue-Italic.svg#HelveticaNeue-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'HelveticaNeueMedium';
+  src: url("../fonts/HelveticaNeueMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueMedium.woff") format("woff"), url("../fonts/HelveticaNeueMedium.ttf") format("truetype"), url("../fonts/HelveticaNeueMedium.svg#HelveticaNeueMedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 .container {
   width: 1005px;
   margin: 0 auto; }
@@ -3607,7 +3617,7 @@ a, button {
         .error-ct .flex-ct2 .text-ct a:hover {
           color: #98d9ff; }
 
-header .dropbtn, header .dropdown-content a, header .profile .icons-ct p, header nav ul li a {
+header .dropbtn, header .dropdown-content a, header .profile .icons-ct p, header nav ul li a, footer .content .lucidity, footer .bottom-ct p {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -3620,7 +3630,7 @@ header .search-ct form input::-webkit-input-placeholder, header .search-ct form 
   font-size: 14px;
   font-weight: 400; }
 
-.how-to-sell-faster h2 {
+.how-to-sell-faster h2, .advantages h3, .details .desc-ct h3 {
   color: #08080b;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -3631,7 +3641,7 @@ header {
   background-size: cover; }
   header .control {
     padding: 6px 0;
-    border-bottom: 5px solid #e79700; }
+    border-bottom: 2px solid #e79700; }
   header .flex-ct {
     display: flex;
     justify-content: space-between; }
@@ -3846,5 +3856,494 @@ header {
           width: 40px; }
           .how-to-sell-faster .actions-ct .card .btn-ct button:hover {
             opacity: .6; }
+
+header .dropbtn, header .dropdown-content a, header .profile .icons-ct p, header nav ul li a, footer .content .lucidity, footer .bottom-ct p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.29px; }
+
+header .search-ct form input::-webkit-input-placeholder, header .search-ct form input:-moz-placeholder, header .search-ct form input:-ms-input-placeholder {
+  color: #c5cfd9;
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
+
+.how-to-sell-faster h2, .advantages h3, .details .desc-ct h3 {
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300; }
+
+header {
+  background: url("../img/common/header-bg.png") no-repeat 100% 100%;
+  background-size: cover; }
+  header .control {
+    padding: 6px 0;
+    border-bottom: 2px solid #e79700; }
+  header .flex-ct {
+    display: flex;
+    justify-content: space-between; }
+  header .language {
+    align-self: center;
+    position: relative; }
+  header .dropbtn {
+    border: none;
+    background-color: transparent;
+    padding: 5px; }
+  header .dropdown-content {
+    opacity: 0;
+    min-width: 100px;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #050201; }
+    header .dropdown-content a {
+      display: block;
+      padding: 7px 0;
+      text-align: center; }
+  header .dropdown-content-active {
+    pointer-events: auto;
+    opacity: 1; }
+  header .profile {
+    display: flex; }
+    header .profile .ovn-ct {
+      display: flex;
+      justify-content: center; }
+      header .profile .ovn-ct svg {
+        margin: 0 10px 0 0; }
+      header .profile .ovn-ct .drop-down-ct {
+        align-self: center; }
+    header .profile .icons-ct {
+      display: flex;
+      justify-content: center; }
+      header .profile .icons-ct .icon-ct {
+        display: flex;
+        justify-content: center;
+        margin: 0 7px; }
+      header .profile .icons-ct svg {
+        align-self: center;
+        margin: 0 5px 0 0;
+        cursor: pointer; }
+      header .profile .icons-ct p {
+        align-self: center;
+        color: #ea9602; }
+  header .content {
+    padding: 45px 0 40px; }
+  header nav ul li {
+    display: inline-block; }
+    header nav ul li a {
+      border-right: 1px solid #ffffff;
+      text-transform: uppercase;
+      padding: 1px 15px;
+      transition: .3s; }
+      header nav ul li a:hover {
+        text-decoration: underline; }
+  header .bottom-ct {
+    margin: 12px 0 0 15px; }
+  header .search-ct {
+    width: 69%; }
+    header .search-ct form {
+      display: flex;
+      justify-content: center; }
+      header .search-ct form .search {
+        width: 50%;
+        border-radius: 2px 0 0 2px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1;
+        vertical-align: -.125em; }
+        header .search-ct form .search:before {
+          content: "\f007";
+          background: red; }
+      header .search-ct form .location {
+        width: 30%; }
+      header .search-ct form input {
+        border: 1px solid #d7d7d7;
+        background-color: #f5f8f9;
+        padding: 10px 0 10px 10px; }
+      header .search-ct form button {
+        width: 20%;
+        background-color: #ea9602;
+        border-radius: 0 2px 2px 0;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        transition: .3s; }
+        header .search-ct form button:hover {
+          color: #000; }
+  header .integration-ct {
+    width: 29%;
+    display: flex;
+    justify-content: center; }
+    header .integration-ct .desc-ct {
+      background-color: #abcf36;
+      width: 80%;
+      border-radius: 2px 0 0 2px; }
+      header .integration-ct .desc-ct p {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 12px 0 12px 15px; }
+    header .integration-ct button {
+      width: 20%;
+      background-color: #99ba2f;
+      border-radius: 0 2px 2px 0;
+      border: none;
+      transition: .3s; }
+      header .integration-ct button:hover {
+        opacity: .6; }
+
+.how-to-sell-faster {
+  padding: 40px 0 25px; }
+  .how-to-sell-faster h2 {
+    text-align: center;
+    margin: 0 0 40px; }
+  .how-to-sell-faster .flex-ct {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .how-to-sell-faster .card-ct {
+    display: flex;
+    justify-content: center; }
+    .how-to-sell-faster .card-ct .card {
+      background-color: #f6f9fa;
+      border: 1px solid #cdcdcd;
+      width: 25%;
+      padding: 25px 30px 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column; }
+      .how-to-sell-faster .card-ct .card .img-ct {
+        height: 50%;
+        margin: 0 0 15px; }
+        .how-to-sell-faster .card-ct .card .img-ct img {
+          display: block;
+          margin: 0 auto; }
+      .how-to-sell-faster .card-ct .card h3 {
+        color: #08080b;
+        font-family: 'PFDinDisplayPro-Regular', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        margin: 0 0 20px; }
+      .how-to-sell-faster .card-ct .card p {
+        text-align: center;
+        opacity: 0.67;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 0 30px; }
+      .how-to-sell-faster .card-ct .card a {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 14px 19px;
+        margin: 0 0 15px;
+        background-color: #ea9602;
+        align-self: center;
+        border-radius: 2px;
+        transition: .3s; }
+        .how-to-sell-faster .card-ct .card a:hover {
+          color: #000; }
+  .how-to-sell-faster .actions-ct {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .how-to-sell-faster .actions-ct .card {
+      padding: 20px;
+      box-sizing: border-box;
+      width: 50%;
+      border: 1px solid #cdcdcd;
+      display: flex;
+      flex-direction: column; }
+      .how-to-sell-faster .actions-ct .card h3 {
+        margin: 60px 0 30px;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300; }
+      .how-to-sell-faster .actions-ct .card .btn-ct {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        box-shadow: inset 0 -2px 0 #99ba2f;
+        background-color: #abcf36;
+        border-radius: 2px; }
+        .how-to-sell-faster .actions-ct .card .btn-ct .desc-ct p {
+          color: #ffffff;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          padding: 12px 30px; }
+        .how-to-sell-faster .actions-ct .card .btn-ct button {
+          background-color: #99ba2f;
+          border-radius: 0 2px 2px 0;
+          border: none;
+          transition: .3s;
+          width: 40px; }
+          .how-to-sell-faster .actions-ct .card .btn-ct button:hover {
+            opacity: .6; }
+
+.advantages {
+  padding: 25px 0 0; }
+  .advantages .img-ct img {
+    display: block;
+    margin: 0 auto 45px; }
+  .advantages .flex-ct {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 60px; }
+  .advantages .text-ct {
+    width: 35%;
+    padding: 0 25px;
+    box-sizing: border-box; }
+    .advantages .text-ct p {
+      opacity: 0.67;
+      color: #08080b;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400; }
+  .advantages .top-ad {
+    border-right: 1px solid #cdcdcd; }
+    .advantages .top-ad h3 {
+      text-align: end; }
+    .advantages .top-ad p {
+      text-align: end;
+      line-height: 14.98px; }
+  .advantages .advantages-ct {
+    border-left: 1px solid #cdcdcd; }
+    .advantages .advantages-ct ul {
+      margin: 0 0 0 15px; }
+      .advantages .advantages-ct ul li {
+        list-style-image: url("../img/how-to-sell-faster/check-mark.png"); }
+        .advantages .advantages-ct ul li p {
+          line-height: 19px; }
+  .advantages h3 {
+    margin: 0 0 20px; }
+  .advantages .big-img-ct {
+    width: 85%;
+    margin: 0 auto; }
+    .advantages .big-img-ct img {
+      width: 100%; }
+
+.details {
+  padding: 0 0 40px; }
+  .details hr {
+    border: none;
+    margin: 50px auto;
+    width: 100%;
+    color: #cdcdcd;
+    background-color: #cdcdcd;
+    height: 1px; }
+  .details .text-card {
+    display: flex; }
+  .details .img-ct {
+    width: 20%;
+    margin: 0 15px 0 0;
+    align-self: center; }
+  .details .desc-ct h3 {
+    margin: 0 0 15px; }
+  .details .desc-ct p {
+    opacity: 0.67;
+    color: #08080b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 35px; }
+  .details .desc-ct ul {
+    margin: 15px 0 0 22px; }
+    .details .desc-ct ul li {
+      list-style-image: url("../img/how-to-sell-faster/check-mark.png"); }
+      .details .desc-ct ul li p {
+        margin: 0;
+        line-height: 19px; }
+  .details form fieldset {
+    margin: 0 0 30px; }
+  .details form label {
+    color: #08080b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400; }
+    .details form label span {
+      color: #ff5555; }
+  .details form select {
+    margin: 12px 0 0;
+    display: block;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    /*for WebKit*/
+    -webkit-appearance: none;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    cursor: pointer;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none !important;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 95%;
+    background: url("../img/how-to-sell-faster/select-arrows.png") no-repeat 98% 50%;
+    background-color: #f8fafb; }
+    .details form select::-ms-expand {
+      display: none; }
+  .details .totals-ct {
+    display: flex;
+    margin: 0 0 15px; }
+    .details .totals-ct .desc {
+      align-self: center;
+      opacity: 0.67;
+      color: #08080b;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0 15px 0 0; }
+    .details .totals-ct .counter-ct {
+      background: url("../img/how-to-sell-faster/totals.png") no-repeat 100% 100%; }
+      .details .totals-ct .counter-ct p {
+        padding: 15px 30px 18px 10px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0; }
+        .details .totals-ct .counter-ct p span {
+          font-size: 9px; }
+  .details .price-ct p {
+    margin: 0 0 10px;
+    opacity: 0.67;
+    color: #08080b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400; }
+  .details .price-ct a {
+    transition: .3s;
+    color: #ea9602;
+    font-weight: 700; }
+    .details .price-ct a:hover {
+      text-decoration: underline; }
+
+footer {
+  background-color: #000000; }
+  footer .content {
+    padding: 40px 0;
+    border-bottom: 2px solid #e79700; }
+    footer .content .flex-ct {
+      display: flex;
+      justify-content: space-between; }
+    footer .content .items-ct {
+      width: 22%; }
+      footer .content .items-ct:last-child {
+        width: 25%; }
+    footer .content .caption {
+      color: #ea9602;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin: 0 0 22px; }
+    footer .content ul li a {
+      opacity: 0.2;
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 29.47px;
+      transition: .3s; }
+      footer .content ul li a:hover {
+        text-decoration: underline; }
+    footer .content .phone-ct {
+      display: flex;
+      margin: 0 0 30px; }
+      footer .content .phone-ct svg {
+        fill: #ea9602; }
+      footer .content .phone-ct p {
+        color: #ea9602;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.29px; }
+    footer .content .lucidity {
+      margin: 0 0 15px; }
+    footer .content form {
+      position: relative;
+      margin: 0 0 25px; }
+      footer .content form input {
+        color: #979797;
+        font-family: 'HelveticaNeue-Italic', sans-serif;
+        font-size: 12px;
+        font-style: italic;
+        border: 1px solid #cacaca;
+        background-color: #ffffff;
+        border-radius: 2px;
+        padding: 8px;
+        box-sizing: border-box;
+        width: 100%; }
+      footer .content form button {
+        position: absolute;
+        right: 3px;
+        top: 50%;
+        transform: translate(0%, -50%);
+        color: #ffffff;
+        font-family: 'HelveticaNeueMedium', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 6px;
+        background-color: #ea9602;
+        transition: .3s;
+        border: none;
+        border-radius: 2px; }
+        footer .content form button:hover {
+          color: #000000; }
+    footer .content .social-ct .title {
+      color: #ea9602;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.29px;
+      margin: 0 0 15px; }
+    footer .content .social-ct .flex-social-ct {
+      display: flex; }
+      footer .content .social-ct .flex-social-ct .circle {
+        margin: 0 5px;
+        background-color: #ffffff;
+        opacity: 0.2;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        display: flex;
+        justify-content: center; }
+        footer .content .social-ct .flex-social-ct .circle:first-child {
+          margin-left: 0; }
+        footer .content .social-ct .flex-social-ct .circle:last-child {
+          margin-right: 0; }
+      footer .content .social-ct .flex-social-ct img {
+        align-self: center; }
+      footer .content .social-ct .flex-social-ct svg {
+        align-self: center; }
+  footer .bottom-ct {
+    padding: 10px 0 20px; }
+    footer .bottom-ct .logo-ct img {
+      display: block;
+      margin: 0 auto; }
+    footer .bottom-ct p {
+      margin: 10px 0 0;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
