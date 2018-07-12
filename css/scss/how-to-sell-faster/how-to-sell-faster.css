@@ -1,0 +1,101 @@
+.how-to-sell-faster h2 {
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300; }
+
+.how-to-sell-faster {
+  padding: 40px 0 25px; }
+  .how-to-sell-faster h2 {
+    text-align: center;
+    margin: 0 0 40px; }
+  .how-to-sell-faster .flex-ct {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .how-to-sell-faster .card-ct {
+    display: flex;
+    justify-content: center; }
+    .how-to-sell-faster .card-ct .card {
+      background-color: #f6f9fa;
+      border: 1px solid #cdcdcd;
+      width: 25%;
+      padding: 25px 30px 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column; }
+      .how-to-sell-faster .card-ct .card .img-ct {
+        height: 50%;
+        margin: 0 0 15px; }
+        .how-to-sell-faster .card-ct .card .img-ct img {
+          display: block;
+          margin: 0 auto; }
+      .how-to-sell-faster .card-ct .card h3 {
+        color: #08080b;
+        font-family: 'PFDinDisplayPro-Regular', sans-serif;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        margin: 0 0 20px; }
+      .how-to-sell-faster .card-ct .card p {
+        text-align: center;
+        opacity: 0.67;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 0 30px; }
+      .how-to-sell-faster .card-ct .card a {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 14px 19px;
+        margin: 0 0 15px;
+        background-color: #ea9602;
+        align-self: center;
+        border-radius: 2px;
+        transition: .3s; }
+        .how-to-sell-faster .card-ct .card a:hover {
+          color: #000; }
+  .how-to-sell-faster .actions-ct {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .how-to-sell-faster .actions-ct .card {
+      padding: 20px;
+      box-sizing: border-box;
+      width: 50%;
+      border: 1px solid #cdcdcd;
+      display: flex;
+      flex-direction: column; }
+      .how-to-sell-faster .actions-ct .card h3 {
+        margin: 60px 0 30px;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300; }
+      .how-to-sell-faster .actions-ct .card .btn-ct {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        box-shadow: inset 0 -2px 0 #99ba2f;
+        background-color: #abcf36;
+        border-radius: 2px; }
+        .how-to-sell-faster .actions-ct .card .btn-ct .desc-ct p {
+          color: #ffffff;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          padding: 12px 30px; }
+        .how-to-sell-faster .actions-ct .card .btn-ct button {
+          background-color: #99ba2f;
+          border-radius: 0 2px 2px 0;
+          border: none;
+          transition: .3s;
+          width: 40px; }
+          .how-to-sell-faster .actions-ct .card .btn-ct button:hover {
+            opacity: .6; }
+
+/*# sourceMappingURL=how-to-sell-faster.css.map */

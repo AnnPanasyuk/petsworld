@@ -1,7 +1,8 @@
-@import 'fonts';
-@import 'commonStyle';
-@import '404';
-@import 'how-to-sell-faster';
-@import 'advantages';
-@import 'deatils';
-@import 'footer';
+@import 'scss/fonts';
+@import 'scss/commonStyle';
+@import 'scss/header';
+@import 'scss/404/404';
+@import 'scss/how-to-sell-faster/how-to-sell-faster';
+@import 'scss/how-to-sell-faster/advantages';
+@import 'scss/how-to-sell-faster/deatils';
+@import 'scss/footer';

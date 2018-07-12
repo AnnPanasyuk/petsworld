@@ -1,0 +1,100 @@
+@import url(how-to-sell-faster/how-to-sell-faster.css);
+.details {
+  padding: 0 0 40px; }
+  .details hr {
+    border: none;
+    margin: 50px auto;
+    width: 100%;
+    color: #cdcdcd;
+    background-color: #cdcdcd;
+    height: 1px; }
+  .details .text-card {
+    display: flex; }
+  .details .img-ct {
+    width: 20%;
+    margin: 0 15px 0 0;
+    align-self: center; }
+  .details .desc-ct h3 {
+    margin: 0 0 15px; }
+  .details .desc-ct p {
+    opacity: 0.67;
+    color: #08080b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 35px; }
+  .details .desc-ct ul {
+    margin: 15px 0 0 22px; }
+    .details .desc-ct ul li {
+      list-style-image: url("../../../img/how-to-sell-faster/check-mark.png"); }
+      .details .desc-ct ul li p {
+        margin: 0;
+        line-height: 19px; }
+  .details form fieldset {
+    margin: 0 0 30px; }
+  .details form label {
+    color: #08080b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400; }
+    .details form label span {
+      color: #ff5555; }
+  .details form select {
+    margin: 12px 0 0;
+    display: block;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    /*for WebKit*/
+    -webkit-appearance: none;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    cursor: pointer;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none !important;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 95%;
+    background: url("../../../img/how-to-sell-faster/select-arrows.png") no-repeat 98% 50%;
+    background-color: #f8fafb; }
+    .details form select::-ms-expand {
+      display: none; }
+  .details .totals-ct {
+    display: flex;
+    margin: 0 0 15px; }
+    .details .totals-ct .desc {
+      align-self: center;
+      opacity: 0.67;
+      color: #08080b;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0 15px 0 0; }
+    .details .totals-ct .counter-ct {
+      background: url("../../../img/how-to-sell-faster/totals.png") no-repeat 100% 100%; }
+      .details .totals-ct .counter-ct p {
+        padding: 15px 30px 18px 10px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0; }
+        .details .totals-ct .counter-ct p span {
+          font-size: 9px; }
+  .details .price-ct p {
+    margin: 0 0 10px;
+    opacity: 0.67;
+    color: #08080b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400; }
+  .details .price-ct a {
+    transition: .3s;
+    color: #ea9602;
+    font-weight: 700; }
+    .details .price-ct a:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=deatils.css.map */

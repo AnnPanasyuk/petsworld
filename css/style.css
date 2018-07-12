@@ -51,6 +51,158 @@ a, button {
   text-decoration: none;
 }
 
+header {
+  background: url("../img/common/header-bg.png") no-repeat 100% 100%;
+  background-size: cover;
+}
+header .control {
+  padding: 6px 0;
+  border-bottom: 2px solid #e79700;
+}
+header .flex-ct {
+  display: flex;
+  justify-content: space-between;
+}
+header .flex-ct-1_1 {
+  display: flex;
+  justify-content: flex-end;
+}
+header .dropbtn {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+}
+header .dropdown-content {
+  opacity: 0;
+  min-width: 100px;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #050201;
+}
+header .dropdown-content a {
+  display: block;
+  padding: 7px 0;
+  text-align: center;
+}
+header .dropdown-content-active {
+  pointer-events: auto;
+  opacity: 1;
+}
+header .profile {
+  display: flex;
+}
+header .profile .ovn-ct {
+  display: flex;
+  justify-content: center;
+}
+header .profile .ovn-ct svg {
+  margin: 0 10px 0 0;
+}
+header .profile .ovn-ct .drop-down-ct {
+  align-self: center;
+}
+header .profile .icons-ct {
+  display: flex;
+  justify-content: center;
+}
+header .profile .icons-ct .icon-ct {
+  display: flex;
+  justify-content: center;
+  margin: 0 7px;
+}
+header .profile .icons-ct svg, header .profile .icons-ct img {
+  align-self: center;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+header .profile .icons-ct p {
+  align-self: center;
+  color: #ea9602;
+}
+header .content {
+  padding: 45px 0 40px;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  border-right: 1px solid #ffffff;
+  text-transform: uppercase;
+  padding: 1px 15px;
+  transition: .3s;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header .bottom-ct {
+  margin: 12px 0 0 15px;
+}
+header .search-ct {
+  width: 69%;
+}
+header .search-ct form {
+  display: flex;
+  justify-content: center;
+}
+header .search-ct form .search {
+  width: 50%;
+  border-radius: 2px 0 0 2px;
+  background: url("../img/common/search.png") no-repeat 3% 50%;
+  background-color: #f5f8f9;
+}
+header .search-ct form .location {
+  width: 30%;
+  background: url("../img/common/pin-icon.png") no-repeat 3% 50%;
+  background-color: #f5f8f9;
+}
+header .search-ct form input {
+  border: 1px solid #d7d7d7;
+  padding: 10px 0 10px 25px;
+}
+header .search-ct form button {
+  width: 20%;
+  background-color: #ea9602;
+  border-radius: 0 2px 2px 0;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  transition: .3s;
+}
+header .search-ct form button:hover {
+  color: #000;
+}
+header .integration-ct {
+  width: 29%;
+  display: flex;
+  justify-content: center;
+}
+header .integration-ct .desc-ct {
+  background-color: #abcf36;
+  width: 80%;
+  border-radius: 2px 0 0 2px;
+}
+header .integration-ct .desc-ct p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0 10px 15px;
+}
+header .integration-ct button {
+  width: 20%;
+  background-color: #99ba2f;
+  border-radius: 0 2px 2px 0;
+  border: none;
+  transition: .3s;
+}
+header .integration-ct button:hover {
+  opacity: .6;
+}
+
 .error-ct {
   padding: 50px 0;
   background: url("../img/404/error-bg.png") no-repeat 50% 100%;
@@ -140,444 +292,6 @@ header .search-ct form input::-webkit-input-placeholder, header .search-ct form 
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 300;
-}
-
-header {
-  background: url("../img/common/header-bg.png") no-repeat 100% 100%;
-  background-size: cover;
-}
-header .control {
-  padding: 6px 0;
-  border-bottom: 2px solid #e79700;
-}
-header .flex-ct {
-  display: flex;
-  justify-content: space-between;
-}
-header .flex-ct-1_1 {
-  display: flex;
-  justify-content: flex-end;
-}
-header .dropbtn {
-  border: none;
-  background-color: transparent;
-  padding: 5px;
-}
-header .dropdown-content {
-  opacity: 0;
-  min-width: 100px;
-  pointer-events: none;
-  position: absolute;
-  z-index: 1;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  background-color: #050201;
-}
-header .dropdown-content a {
-  display: block;
-  padding: 7px 0;
-  text-align: center;
-}
-header .dropdown-content-active {
-  pointer-events: auto;
-  opacity: 1;
-}
-header .profile {
-  display: flex;
-}
-header .profile .ovn-ct {
-  display: flex;
-  justify-content: center;
-}
-header .profile .ovn-ct svg {
-  margin: 0 10px 0 0;
-}
-header .profile .ovn-ct .drop-down-ct {
-  align-self: center;
-}
-header .profile .icons-ct {
-  display: flex;
-  justify-content: center;
-}
-header .profile .icons-ct .icon-ct {
-  display: flex;
-  justify-content: center;
-  margin: 0 7px;
-}
-header .profile .icons-ct svg, header .profile .icons-ct img {
-  align-self: center;
-  margin: 0 5px 0 0;
-  cursor: pointer;
-}
-header .profile .icons-ct p {
-  align-self: center;
-  color: #ea9602;
-}
-header .content {
-  padding: 45px 0 40px;
-}
-header nav ul li {
-  display: inline-block;
-}
-header nav ul li a {
-  border-right: 1px solid #ffffff;
-  text-transform: uppercase;
-  padding: 1px 15px;
-  transition: .3s;
-}
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-header .bottom-ct {
-  margin: 12px 0 0 15px;
-}
-header .search-ct {
-  width: 69%;
-}
-header .search-ct form {
-  display: flex;
-  justify-content: center;
-}
-header .search-ct form .search {
-  width: 50%;
-  border-radius: 2px 0 0 2px;
-  background: url("../img/common/search.png") no-repeat 3% 50%;
-  background-color: #f5f8f9;
-}
-header .search-ct form .location {
-  width: 30%;
-  background: url("../img/common/pin-icon.png") no-repeat 3% 50%;
-  background-color: #f5f8f9;
-}
-header .search-ct form input {
-  border: 1px solid #d7d7d7;
-  padding: 10px 0 10px 25px;
-}
-header .search-ct form button {
-  width: 20%;
-  background-color: #ea9602;
-  border-radius: 0 2px 2px 0;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  border: none;
-  transition: .3s;
-}
-header .search-ct form button:hover {
-  color: #000;
-}
-header .integration-ct {
-  width: 29%;
-  display: flex;
-  justify-content: center;
-}
-header .integration-ct .desc-ct {
-  background-color: #abcf36;
-  width: 80%;
-  border-radius: 2px 0 0 2px;
-}
-header .integration-ct .desc-ct p {
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 10px 0 10px 15px;
-}
-header .integration-ct button {
-  width: 20%;
-  background-color: #99ba2f;
-  border-radius: 0 2px 2px 0;
-  border: none;
-  transition: .3s;
-}
-header .integration-ct button:hover {
-  opacity: .6;
-}
-
-.how-to-sell-faster {
-  padding: 40px 0 25px;
-}
-.how-to-sell-faster h2 {
-  text-align: center;
-  margin: 0 0 40px;
-}
-.how-to-sell-faster .flex-ct {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.how-to-sell-faster .card-ct {
-  display: flex;
-  justify-content: center;
-}
-.how-to-sell-faster .card-ct .card {
-  background-color: #f6f9fa;
-  border: 1px solid #cdcdcd;
-  width: 25%;
-  padding: 25px 30px 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-}
-.how-to-sell-faster .card-ct .card .img-ct {
-  height: 50%;
-  margin: 0 0 15px;
-}
-.how-to-sell-faster .card-ct .card .img-ct img {
-  display: block;
-  margin: 0 auto;
-}
-.how-to-sell-faster .card-ct .card h3 {
-  color: #08080b;
-  font-family: 'PFDinDisplayPro-Regular', sans-serif;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 400;
-  margin: 0 0 20px;
-}
-.how-to-sell-faster .card-ct .card p {
-  text-align: center;
-  opacity: 0.67;
-  color: #08080b;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  margin: 0 0 30px;
-}
-.how-to-sell-faster .card-ct .card a {
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 14px 19px;
-  margin: 0 0 15px;
-  background-color: #ea9602;
-  align-self: center;
-  border-radius: 2px;
-  transition: .3s;
-}
-.how-to-sell-faster .card-ct .card a:hover {
-  color: #000;
-}
-.how-to-sell-faster .actions-ct {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.how-to-sell-faster .actions-ct .card {
-  padding: 20px;
-  box-sizing: border-box;
-  width: 50%;
-  border: 1px solid #cdcdcd;
-  display: flex;
-  flex-direction: column;
-}
-.how-to-sell-faster .actions-ct .card h3 {
-  margin: 60px 0 30px;
-  color: #08080b;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-}
-.how-to-sell-faster .actions-ct .card .btn-ct {
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  box-shadow: inset 0 -2px 0 #99ba2f;
-  background-color: #abcf36;
-  border-radius: 2px;
-}
-.how-to-sell-faster .actions-ct .card .btn-ct .desc-ct p {
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 12px 30px;
-}
-.how-to-sell-faster .actions-ct .card .btn-ct button {
-  background-color: #99ba2f;
-  border-radius: 0 2px 2px 0;
-  border: none;
-  transition: .3s;
-  width: 40px;
-}
-.how-to-sell-faster .actions-ct .card .btn-ct button:hover {
-  opacity: .6;
-}
-
-header .dropbtn, header .dropdown-content a, header .profile .icons-ct p, header nav ul li a, footer .content .lucidity, footer .bottom-ct p {
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0.29px;
-}
-
-header .search-ct form input::-webkit-input-placeholder, header .search-ct form input:-moz-placeholder, header .search-ct form input:-ms-input-placeholder {
-  color: #c5cfd9;
-  font-family: 'Calibri', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.how-to-sell-faster h2, .advantages h3, .details .desc-ct h3 {
-  color: #08080b;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-header {
-  background: url("../img/common/header-bg.png") no-repeat 100% 100%;
-  background-size: cover;
-}
-header .control {
-  padding: 6px 0;
-  border-bottom: 2px solid #e79700;
-}
-header .flex-ct {
-  display: flex;
-  justify-content: space-between;
-}
-header .flex-ct-1_1 {
-  display: flex;
-  justify-content: flex-end;
-}
-header .dropbtn {
-  border: none;
-  background-color: transparent;
-  padding: 5px;
-}
-header .dropdown-content {
-  opacity: 0;
-  min-width: 100px;
-  pointer-events: none;
-  position: absolute;
-  z-index: 1;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  background-color: #050201;
-}
-header .dropdown-content a {
-  display: block;
-  padding: 7px 0;
-  text-align: center;
-}
-header .dropdown-content-active {
-  pointer-events: auto;
-  opacity: 1;
-}
-header .profile {
-  display: flex;
-}
-header .profile .ovn-ct {
-  display: flex;
-  justify-content: center;
-}
-header .profile .ovn-ct svg {
-  margin: 0 10px 0 0;
-}
-header .profile .ovn-ct .drop-down-ct {
-  align-self: center;
-}
-header .profile .icons-ct {
-  display: flex;
-  justify-content: center;
-}
-header .profile .icons-ct .icon-ct {
-  display: flex;
-  justify-content: center;
-  margin: 0 7px;
-}
-header .profile .icons-ct svg, header .profile .icons-ct img {
-  align-self: center;
-  margin: 0 5px 0 0;
-  cursor: pointer;
-}
-header .profile .icons-ct p {
-  align-self: center;
-  color: #ea9602;
-}
-header .content {
-  padding: 45px 0 40px;
-}
-header nav ul li {
-  display: inline-block;
-}
-header nav ul li a {
-  border-right: 1px solid #ffffff;
-  text-transform: uppercase;
-  padding: 1px 15px;
-  transition: .3s;
-}
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-header .bottom-ct {
-  margin: 12px 0 0 15px;
-}
-header .search-ct {
-  width: 69%;
-}
-header .search-ct form {
-  display: flex;
-  justify-content: center;
-}
-header .search-ct form .search {
-  width: 50%;
-  border-radius: 2px 0 0 2px;
-  background: url("../img/common/search.png") no-repeat 3% 50%;
-  background-color: #f5f8f9;
-}
-header .search-ct form .location {
-  width: 30%;
-  background: url("../img/common/pin-icon.png") no-repeat 3% 50%;
-  background-color: #f5f8f9;
-}
-header .search-ct form input {
-  border: 1px solid #d7d7d7;
-  padding: 10px 0 10px 25px;
-}
-header .search-ct form button {
-  width: 20%;
-  background-color: #ea9602;
-  border-radius: 0 2px 2px 0;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  border: none;
-  transition: .3s;
-}
-header .search-ct form button:hover {
-  color: #000;
-}
-header .integration-ct {
-  width: 29%;
-  display: flex;
-  justify-content: center;
-}
-header .integration-ct .desc-ct {
-  background-color: #abcf36;
-  width: 80%;
-  border-radius: 2px 0 0 2px;
-}
-header .integration-ct .desc-ct p {
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 10px 0 10px 15px;
-}
-header .integration-ct button {
-  width: 20%;
-  background-color: #99ba2f;
-  border-radius: 0 2px 2px 0;
-  border: none;
-  transition: .3s;
-}
-header .integration-ct button:hover {
-  opacity: .6;
 }
 
 .how-to-sell-faster {
