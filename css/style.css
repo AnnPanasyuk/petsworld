@@ -3645,9 +3645,9 @@ header {
   header .flex-ct {
     display: flex;
     justify-content: space-between; }
-  header .language {
-    align-self: center;
-    position: relative; }
+  header .flex-ct-1_1 {
+    display: flex;
+    justify-content: flex-end; }
   header .dropbtn {
     border: none;
     background-color: transparent;
@@ -3885,9 +3885,9 @@ header {
   header .flex-ct {
     display: flex;
     justify-content: space-between; }
-  header .language {
-    align-self: center;
-    position: relative; }
+  header .flex-ct-1_1 {
+    display: flex;
+    justify-content: flex-end; }
   header .dropbtn {
     border: none;
     background-color: transparent;

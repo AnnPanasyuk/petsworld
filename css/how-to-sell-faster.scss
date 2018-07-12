@@ -30,9 +30,9 @@ header {
     display: flex;
     justify-content: space-between;
   }
-  .language {
-    align-self: center;
-    position: relative;
+  .flex-ct-1_1 {
+    display: flex;
+    justify-content: flex-end;
   }
   .dropbtn {
     border: none;
