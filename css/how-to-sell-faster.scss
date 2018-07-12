@@ -122,20 +122,17 @@ header {
       .search {
         width: 50%;
         border-radius: 2px 0 0 2px;
-        @include fa-icon;
-        @extend .fas;
-        &:before {
-          content: fa-content($fa-var-user);
-          background: red; //!!??!?!??!?!?
-        }
+        background: url("../img/common/search.png") no-repeat 3% 50%;
+        background-color: #f5f8f9;
       }
       .location {
         width: 30%;
+        background: url("../img/common/pin-icon.png") no-repeat 3% 50%;
+        background-color: #f5f8f9;
       }
       input {
         border: 1px solid #d7d7d7;
-        background-color: #f5f8f9;
-        padding: 10px 0 10px 10px;
+        padding: 10px 0 10px 25px;
       }
       input::-webkit-input-placeholder {
         @extend %form_text;
