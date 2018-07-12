@@ -203,7 +203,7 @@ header .profile .icons-ct .icon-ct {
   justify-content: center;
   margin: 0 7px;
 }
-header .profile .icons-ct svg {
+header .profile .icons-ct svg, header .profile .icons-ct img {
   align-self: center;
   margin: 0 5px 0 0;
   cursor: pointer;
@@ -281,7 +281,7 @@ header .integration-ct .desc-ct p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  padding: 12px 0 12px 15px;
+  padding: 10px 0 10px 15px;
 }
 header .integration-ct button {
   width: 20%;
@@ -489,7 +489,7 @@ header .profile .icons-ct .icon-ct {
   justify-content: center;
   margin: 0 7px;
 }
-header .profile .icons-ct svg {
+header .profile .icons-ct svg, header .profile .icons-ct img {
   align-self: center;
   margin: 0 5px 0 0;
   cursor: pointer;
@@ -567,7 +567,7 @@ header .integration-ct .desc-ct p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  padding: 12px 0 12px 15px;
+  padding: 10px 0 10px 15px;
 }
 header .integration-ct button {
   width: 20%;
