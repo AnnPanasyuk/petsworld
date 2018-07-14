@@ -1,0 +1,58 @@
+.contact {
+  padding: 60px 0 100px;
+  h2 {
+    @extend %main_caption !optional;
+    text-align: center;
+    margin: 0 0 60px;
+  }
+  .flex-ct {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-ct {
+    width: 32%;
+    .desc-block {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 40px;
+    }
+    .icon-ct {
+      width: 20px;
+      margin: 0 15px 0 0;
+    }
+    .desc-ct {
+      width: calc(100% - 35px);
+      p, a {
+        display: block;
+        color: #0c0c0c;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.29px;
+        p {
+          &:first-child {
+            width: 20%;
+            opacity: 0.5;
+            color: #0c0c0c;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0.34px;
+          }
+        }
+        p {
+          display: inline-block;
+          &:last-child {
+            width: calc(100% - 20% - 10px);
+          }
+        }
+      }
+    }
+  }
+  .map-ct {
+    width: 60%;
+    height: 280px;
+  }
+}
