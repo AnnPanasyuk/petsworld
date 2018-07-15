@@ -68,6 +68,17 @@
           font-family: 'Open Sans', sans-serif;
           font-size: 12px;
           font-weight: 400;
+          &:last-child {
+            opacity: 0;
+            pointer-events: none;
+            height: 0;
+            transition: .3s;
+          }
+        }
+        .text-active {
+          pointer-events: auto!important;
+          opacity: 0.67!important;
+          height: auto!important;
         }
       }
       .flex-ct {

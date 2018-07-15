@@ -898,6 +898,17 @@ footer .bottom-ct p {
   font-size: 12px;
   font-weight: 400;
 }
+.content .news-ct article .main-desc-ct p:last-child {
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  transition: .3s;
+}
+.content .news-ct article .main-desc-ct .text-active {
+  pointer-events: auto !important;
+  opacity: 0.67 !important;
+  height: auto !important;
+}
 .content .news-ct article .flex-ct {
   display: flex;
   justify-content: flex-end;

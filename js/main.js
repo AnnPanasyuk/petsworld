@@ -17,3 +17,13 @@ $(function(){
         }
     });
 });
+$(function(){
+    $(".news-ct article button").on('click', function() {
+        if(!$(this).closest('article').find('.main-desc-ct p:last-child').hasClass('text-active')) {
+            $(this).closest('article').find('.main-desc-ct p:last-child').addClass('text-active');
+            $(this).remove();
+        } else {
+            $(this).closest('article').find('.main-desc-ct p:last-child').removeClass('text-active');
+        }
+    });
+});
