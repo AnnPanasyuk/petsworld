@@ -1,0 +1,47 @@
+.accommodation {
+  padding: 50px 0 60px;
+  background: url("../img/top-ad/accommodation-bg.png") 100% 100%;
+  background-size: cover;
+  h2 {
+    @extend %main_caption;
+    text-align: center;
+    margin: 0 0 45px;
+  }
+  .flex-ct {
+    display: flex;
+    justify-content: space-between;
+  }
+  .column {
+    width: 49%;
+    p {
+      width: 60%;
+      margin: 0 auto 15px;
+      text-align: center;
+      opacity: 0.67;
+      color: #08080b;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15.01px;
+      span {
+        font-weight: 700;
+      }
+      a {
+        opacity: 0.67;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.01px;
+        text-decoration: underline;
+        transition: .3s;
+        &:hover {
+          opacity: .4;
+        }
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
