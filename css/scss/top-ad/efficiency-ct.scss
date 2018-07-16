@@ -1,0 +1,52 @@
+.efficiency {
+  background-color: #ea9602;
+  padding: 60px 0 30px;
+  h2 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 50px;
+  }
+  .flex-ct {
+    display: flex;
+    justify-content: center;
+  }
+  .column {
+    width: 48%;
+    margin: 0 2%;
+    img {
+      width: 100%;
+    }
+    .text-ct {
+      margin: 15px 0 0;
+      display: flex;
+      .text-block {
+        width: 45%;
+        display: flex;
+      }
+    }
+    p {
+      align-self: center;
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .square {
+      width: 35px;
+      height: 35px;
+      margin: 0 12px 0 0;
+    }
+    .square-1 {
+      background-color: #eeb64c;
+    }
+    .square-2 {
+      background-color: #998973;
+    }
+    &:last-child {
+      width: 43.4%;
+    }
+  }
+}
