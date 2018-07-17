@@ -804,16 +804,21 @@ footer .bottom-ct p {
   padding: 0 0 0 10px;
   border-left: 1px solid #e1e1e1;
 }
+.nav-1-ct nav ul li:nth-child(2) {
+  border: none;
+}
+.nav-1-ct nav ul li:nth-child(2) a {
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+}
+.nav-1-ct nav ul li:nth-child(2) img {
+  margin: 0 0 0 -1px;
+}
 .nav-1-ct nav ul li:last-child {
   border: none;
 }
 .nav-1-ct nav ul li:last-child a {
-  border: 1px solid #e1e1e1;
-  border-right: none;
-  border-left: none;
-}
-.nav-1-ct nav ul li:last-child img {
-  margin: 0 0 0 -1px;
+  color: #08080b;
 }
 .nav-1-ct nav ul li svg {
   align-self: center;
@@ -932,6 +937,70 @@ footer .bottom-ct p {
 }
 .content .news-ct article .flex-ct button:hover {
   color: #000000;
+}
+.content .news-ct .flex-f-ct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content .news-ct .flex-f-ct figure {
+  width: 20%;
+  margin: 0 1% 50px;
+}
+.content .news-ct .flex-f-ct figure .img-ct {
+  width: 100%;
+  margin: 0 0 15px;
+}
+.content .news-ct .flex-f-ct figure .img-ct a {
+  width: 100%;
+}
+.content .news-ct .flex-f-ct figure .img-ct img {
+  width: 100%;
+}
+.content .news-ct .flex-f-ct figure h3 {
+  color: #08080b;
+  font-family: 'PFDinDisplayPro-Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin: 0 0 15px;
+}
+.content .news-ct .flex-f-ct figure .desc {
+  opacity: 0.67;
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 0 25px;
+}
+.content .news-ct .flex-f-ct figure .info-ct {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content .news-ct .flex-f-ct figure .info-ct .counter-ct {
+  display: flex;
+  margin: 0 15px 0 0;
+}
+.content .news-ct .flex-f-ct figure .info-ct .counter-ct svg {
+  fill: #868686;
+  align-self: center;
+  margin: 0 5px 0 0;
+}
+.content .news-ct .flex-f-ct figure .info-ct .counter-ct p {
+  align-self: center;
+  display: block;
+  color: #ea9602;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.content .news-ct .flex-f-ct figure .info-ct .date {
+  width: 100%;
+  margin: 0 0 25px;
+}
+.content .news-ct .flex-f-ct figure .info-ct .watch p, .content .news-ct .flex-f-ct figure .info-ct .like p {
+  color: #868686;
 }
 .content .news-ct .btn-ct {
   display: flex;

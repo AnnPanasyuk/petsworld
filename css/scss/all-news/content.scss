@@ -100,6 +100,72 @@
         }
       }
     }
+    .flex-f-ct {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      figure {
+        width: 20%;
+        margin: 0 1% 50px;
+        .img-ct {
+          width: 100%;
+          margin: 0 0 15px;
+          a {
+            width: 100%;
+          }
+          img {
+            width: 100%;
+          }
+        }
+        h3 {
+          color: #08080b;
+          font-family: 'PFDinDisplayPro-Regular', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19px;
+          margin: 0 0 15px;
+        }
+        .desc {
+          opacity: 0.67;
+          color: #08080b;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          margin: 0 0 25px;
+        }
+        .info-ct {
+          display: flex;
+          flex-wrap: wrap;
+          .counter-ct {
+            display: flex;
+            margin: 0 15px 0 0;
+            svg {
+              fill: #868686;
+              align-self: center;
+              margin: 0 5px 0 0;
+            }
+            p {
+              align-self: center;
+              display: block;
+              color: #ea9602;
+              font-family: 'Open Sans', sans-serif;
+              font-size: 12px;
+              font-weight: 700;
+            }
+          }
+          .date {
+            width: 100%;
+            margin: 0 0 25px;
+          }
+          .watch, .like {
+            p {
+              color: #868686;
+            }
+          }
+        }
+      }
+    }
     .btn-ct {
       display: flex;
       justify-content: center;

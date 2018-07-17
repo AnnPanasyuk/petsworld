@@ -20,15 +20,20 @@
           padding: 0 0 0 10px;
           border-left: 1px solid #e1e1e1;
         }
-        &:last-child {
+        &:nth-child(2) {
           border: none;
           a {
-            border: 1px solid #e1e1e1;
-            border-right: none;
-            border-left: none;
+            border-bottom: 1px solid #e1e1e1;
+            border-top: 1px solid #e1e1e1;
           }
           img {
             margin: 0 0 0 -1px;
+          }
+        }
+        &:last-child {
+          border: none;
+          a {
+            color: #08080b;
           }
         }
         svg {
