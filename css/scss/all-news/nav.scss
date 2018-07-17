@@ -1,7 +1,12 @@
 .nav-1-ct {
   padding: 20px 0;
   border-bottom: 1px solid #cdcdcd;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
   nav {
+    display: flex;
     ul {
       display: flex;
       li {
@@ -20,7 +25,7 @@
           padding: 0 0 0 10px;
           border-left: 1px solid #e1e1e1;
         }
-        &:nth-child(2) {
+        &:last-child {
           border: none;
           a {
             border-bottom: 1px solid #e1e1e1;
@@ -28,12 +33,6 @@
           }
           img {
             margin: 0 0 0 -1px;
-          }
-        }
-        &:last-child {
-          border: none;
-          a {
-            color: #08080b;
           }
         }
         svg {
@@ -53,6 +52,35 @@
           }
         }
       }
+    }
+    p {
+      align-self: center;
+      color: #08080b;
+      font-family: 'Calibri', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 12px 20px 12px 12px;
+      transition: .3s;
+    }
+  }
+  .next {
+    align-self: center;
+    a {
+      display: flex;
+      justify-content: flex-end;
+      color: #868686;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      transition: .3s;
+      text-decoration: underline;
+      &:hover {
+        opacity: .5;
+      }
+    }
+    svg {
+      align-self: center;
+      margin: 0 0 0 5px;
     }
   }
 }

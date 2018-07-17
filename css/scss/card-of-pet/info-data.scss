@@ -1,0 +1,39 @@
+.info-data {
+  padding: 40px 0;
+  .flex-ct {
+    display: flex;
+  }
+  .location {
+    border-right: 1px solid #08080b;
+    padding: 0 20px 0 0;
+    display: flex;
+    svg {
+      fill: #868686;
+      align-self: center;
+      margin: 0 10px 0 0;
+    }
+    p {
+      align-self: center;
+      color: #868686;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+  .identification {
+    padding: 0 0 0 20px;
+    ul {
+      display: flex;
+      li {
+        margin: 0 5px 0 0;
+      }
+      p {
+        opacity: 0.67;
+        color: #08080b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}

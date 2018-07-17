@@ -784,6 +784,13 @@ footer .bottom-ct p {
   padding: 20px 0;
   border-bottom: 1px solid #cdcdcd;
 }
+.nav-1-ct .container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1-ct nav {
+  display: flex;
+}
 .nav-1-ct nav ul {
   display: flex;
 }
@@ -804,21 +811,15 @@ footer .bottom-ct p {
   padding: 0 0 0 10px;
   border-left: 1px solid #e1e1e1;
 }
-.nav-1-ct nav ul li:nth-child(2) {
-  border: none;
-}
-.nav-1-ct nav ul li:nth-child(2) a {
-  border-bottom: 1px solid #e1e1e1;
-  border-top: 1px solid #e1e1e1;
-}
-.nav-1-ct nav ul li:nth-child(2) img {
-  margin: 0 0 0 -1px;
-}
 .nav-1-ct nav ul li:last-child {
   border: none;
 }
 .nav-1-ct nav ul li:last-child a {
-  color: #08080b;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+}
+.nav-1-ct nav ul li:last-child img {
+  margin: 0 0 0 -1px;
 }
 .nav-1-ct nav ul li svg {
   align-self: center;
@@ -835,6 +836,35 @@ footer .bottom-ct p {
 }
 .nav-1-ct nav ul li a:hover {
   color: #000000;
+}
+.nav-1-ct nav p {
+  align-self: center;
+  color: #08080b;
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 20px 12px 12px;
+  transition: .3s;
+}
+.nav-1-ct .next {
+  align-self: center;
+}
+.nav-1-ct .next a {
+  display: flex;
+  justify-content: flex-end;
+  color: #868686;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  transition: .3s;
+  text-decoration: underline;
+}
+.nav-1-ct .next a:hover {
+  opacity: .5;
+}
+.nav-1-ct .next svg {
+  align-self: center;
+  margin: 0 0 0 5px;
 }
 
 .content {
@@ -1434,6 +1464,46 @@ footer .bottom-ct p {
 }
 .value button:hover {
   background-image: linear-gradient(to bottom, #ffa200 0%, #f9dd3f 100%);
+}
+
+.info-data {
+  padding: 40px 0;
+}
+.info-data .flex-ct {
+  display: flex;
+}
+.info-data .location {
+  border-right: 1px solid #08080b;
+  padding: 0 20px 0 0;
+  display: flex;
+}
+.info-data .location svg {
+  fill: #868686;
+  align-self: center;
+  margin: 0 10px 0 0;
+}
+.info-data .location p {
+  align-self: center;
+  color: #868686;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.info-data .identification {
+  padding: 0 0 0 20px;
+}
+.info-data .identification ul {
+  display: flex;
+}
+.info-data .identification ul li {
+  margin: 0 5px 0 0;
+}
+.info-data .identification ul p {
+  opacity: 0.67;
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
