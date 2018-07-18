@@ -27,3 +27,14 @@ $(function(){
         }
     });
 });
+$(function(){
+    $(".pet-profile .slider svg").on('click', function() {
+        if(!$(this).closest('.heart').hasClass('active-heart')) {
+            console.log('hi');
+            $(this).closest('.heart').addClass('active-heart');
+        } else {
+            $(this).closest('.heart').removeClass('active-heart');
+        }
+    });
+});
+

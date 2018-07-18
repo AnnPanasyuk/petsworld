@@ -1,0 +1,28 @@
+.available-function {
+  padding: 0 0 20px;
+  ul {
+    display: flex;
+    li {
+      margin: 0 5px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+    .btn-ct {
+      border: 1px solid #d7d7d7;
+      border-radius: 2px;
+      display: flex;
+      padding: 2px 10px;
+    }
+    img {
+      margin: 0 8px 0 0;
+    }
+    p {
+      align-self: center;
+      color: #08080b;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}

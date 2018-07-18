@@ -49,7 +49,7 @@ header .search-ct form input::-webkit-input-placeholder, header .search-ct form 
   font-weight: 400;
 }
 
-.how-to-sell-faster h2, .advantages h3, .details .desc-ct h3, .contact h2, .content .news-ct h2, .content aside h2, .content aside .post-ct h2, .questions .desc-block .text-ct h2, .accommodation h2, .value h2 {
+.how-to-sell-faster h2, .advantages h3, .details .desc-ct h3, .contact h2, .content .news-ct h2, .content aside h2, .content aside .post-ct h2, .questions .desc-block .text-ct h2, .accommodation h2, .value h2, .overwrite .text-ct h2, .contact-pet .text-ct h2 {
   color: #08080b;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -1504,6 +1504,353 @@ footer .bottom-ct p {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
+}
+
+.available-function {
+  padding: 0 0 20px;
+}
+.available-function ul {
+  display: flex;
+}
+.available-function ul li {
+  margin: 0 5px;
+}
+.available-function ul li:first-child {
+  margin-left: 0;
+}
+.available-function ul .btn-ct {
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  display: flex;
+  padding: 2px 10px;
+}
+.available-function ul img {
+  margin: 0 8px 0 0;
+}
+.available-function ul p {
+  align-self: center;
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.pet-profile {
+  padding: 0 0 50px;
+  border-bottom: 1px solid #f2f6f8;
+}
+.pet-profile .flex-ct {
+  display: flex;
+  justify-content: space-between;
+}
+.pet-profile .slider {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.pet-profile .slider .heart svg {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  z-index: 1;
+  fill: #fff;
+  opacity: .4;
+  transition: .3s;
+}
+.pet-profile .slider .heart svg:hover {
+  fill: #ff4a4a;
+  opacity: .4;
+}
+.pet-profile .slider .active-heart svg {
+  fill: #ff4a4a;
+}
+.pet-profile .slider .fade {
+  width: 82%;
+}
+.pet-profile .slider .multiple-items {
+  width: 16%;
+  align-self: center;
+  margin: -5% 0 0;
+}
+.pet-profile .slider .multiple-items .slick-arrow {
+  display: flex;
+  justify-content: center;
+}
+.pet-profile .slider .multiple-items .slick-arrow svg {
+  cursor: pointer;
+  margin: 0 0 0 -7%;
+}
+.pet-profile .slider .multiple-items .img-ct {
+  margin: 5px 0;
+  cursor: pointer;
+}
+.pet-profile .data {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}
+.pet-profile .data .price-ct {
+  align-self: flex-end;
+  background: url("../img/card-of-pet/price.png") no-repeat 100% 100%;
+  background-size: cover;
+  margin: 0 0 25px;
+}
+.pet-profile .data .price-ct p {
+  padding: 34px 26px 31px 18px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+}
+.pet-profile .data .price-ct p span {
+  font-size: 16px;
+}
+.pet-profile .data .tug {
+  background-color: #f2f6f8;
+  border-radius: 2px;
+  padding: 12px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+.pet-profile .data .tug .desc-ct {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 20px;
+}
+.pet-profile .data .tug p {
+  color: #868686;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 18px 0 0;
+  align-self: center;
+}
+.pet-profile .data .tug svg {
+  align-self: center;
+  fill: #868686 !important;
+}
+.pet-profile .data .tug .btn-ct {
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: inset 0 -2px 0 #99ba2f;
+  background-color: #abcf36;
+  border-radius: 2px;
+  padding: 0 0 0 8px;
+}
+.pet-profile .data .tug .btn-ct p {
+  align-self: center;
+  color: #ffffff;
+  font-family: 'SegoeUI-Semibold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.pet-profile .data .tug .btn-ct .icon-ct {
+  background-color: #99ba2f;
+  padding: 8px;
+  border-radius: 0 2px 2px 0;
+}
+.pet-profile .data .tug .btn-ct .icon-ct svg {
+  fill: #fff;
+  align-self: center;
+}
+.pet-profile .data .add-favorite {
+  border: 1px solid #ff4a4a;
+  border-radius: 2px;
+  display: flex;
+  margin: 5px 0 0;
+  justify-content: flex-end;
+  padding: 12px 10px;
+  cursor: pointer;
+}
+.pet-profile .data .add-favorite:hover {
+  opacity: .5;
+}
+.pet-profile .data .add-favorite p {
+  color: #ff4a4a;
+  font-family: 'SegoeUI-Semibold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  align-self: center;
+  margin: 0 15px 0 0;
+}
+.pet-profile .data .add-favorite svg {
+  align-self: center;
+  fill: #ff4a4a;
+}
+
+.overwrite {
+  background-color: #f2f6f8;
+  padding: 30px 0;
+}
+.overwrite .flex-ct {
+  display: flex;
+  justify-content: space-between;
+}
+.overwrite .text-ct {
+  width: 53%;
+}
+.overwrite .text-ct h2 {
+  margin: 0 0 20px;
+}
+.overwrite .text-ct h2:last-child {
+  margin: 25px 0 0;
+}
+.overwrite .text-ct p {
+  opacity: 0.67;
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.overwrite .text-ct ol {
+  margin: 0 0 0 12px;
+  list-style-image: url("../img/card-of-pet/rhombus.png");
+}
+.overwrite .doc-ct {
+  width: 40%;
+}
+.overwrite .doc-ct .flex-doc-ct {
+  display: flex;
+  flex-wrap: wrap;
+}
+.overwrite .doc-ct figure {
+  width: 33%;
+  margin: 0 0 30px;
+}
+.overwrite .doc-ct figure img {
+  margin: 0 0 10px;
+}
+.overwrite .doc-ct figure a {
+  display: inline-block;
+  text-decoration: underline;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  transition: .3s;
+}
+.overwrite .doc-ct figure a:hover {
+  opacity: .5;
+}
+
+.contact-pet {
+  padding: 40px 0;
+}
+.contact-pet .flex-ct {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-pet .text-ct {
+  width: 42%;
+}
+.contact-pet .text-ct h2 {
+  margin: 0 0 20px;
+}
+.contact-pet .text-ct p {
+  opacity: 0.67;
+  color: #08080b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 0 30px;
+}
+.contact-pet .text-ct .desc-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 40px;
+}
+.contact-pet .text-ct .icon-ct {
+  width: 20px;
+  margin: 0 15px 0 0;
+}
+.contact-pet .text-ct .desc-ct {
+  width: calc(100% - 35px);
+}
+.contact-pet .text-ct .desc-ct p, .contact-pet .text-ct .desc-ct a {
+  display: block;
+  color: #0c0c0c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.29px;
+  margin: 0;
+}
+.contact-pet .text-ct .desc-ct p p:first-child, .contact-pet .text-ct .desc-ct a p:first-child {
+  width: 20%;
+  opacity: 0.5;
+  color: #0c0c0c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.34px;
+}
+.contact-pet .text-ct .desc-ct p p, .contact-pet .text-ct .desc-ct a p {
+  display: inline-block;
+}
+.contact-pet .text-ct .desc-ct p p:last-child, .contact-pet .text-ct .desc-ct a p:last-child {
+  width: calc(100% - 20% - 10px);
+}
+.contact-pet .text-ct .btn-ct {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 30px;
+}
+.contact-pet .text-ct .btn-ct .btn-card {
+  cursor: pointer;
+  transition: .3s;
+  box-shadow: inset 0 -2px 0 #99ba2f;
+  background-color: #abcf36;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-pet .text-ct .btn-ct .btn-card:hover {
+  opacity: .5;
+}
+.contact-pet .text-ct .btn-ct .btn-card p {
+  color: #ffffff;
+  font-family: 'SegoeUI-Semibold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  align-self: center;
+  line-height: 1;
+  margin: 0 30px;
+}
+.contact-pet .text-ct .btn-ct .btn-card .icon-ct {
+  background-color: #99ba2f;
+  border-radius: 2px;
+  padding: 8px 8px 6px;
+  margin: 0;
+}
+.contact-pet .text-ct .location {
+  display: flex;
+}
+.contact-pet .text-ct .location svg {
+  margin: 0 10px 0 0;
+  fill: #868686;
+}
+.contact-pet .text-ct .location p {
+  color: #868686;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.contact-pet .map-ct {
+  width: 50%;
+  align-self: center;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

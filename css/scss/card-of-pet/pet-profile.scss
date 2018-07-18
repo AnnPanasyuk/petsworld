@@ -1,0 +1,154 @@
+.pet-profile {
+  padding: 0 0 50px;
+  border-bottom: 1px solid #f2f6f8;
+  .flex-ct {
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .heart {
+      svg {
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        left: 14px;
+        z-index: 1;
+        fill: #fff;
+        opacity: .4;
+        transition: .3s;
+        &:hover {
+          fill: #ff4a4a;
+          opacity: .4;
+        }
+      }
+    }
+    .active-heart {
+      svg {
+        fill: #ff4a4a;
+      }
+    }
+    .fade {
+      width: 82%;
+    }
+    .multiple-items {
+      width: 16%;
+      align-self: center;
+      margin: -5% 0 0;
+      .slick-arrow {
+        display: flex;
+        justify-content: center;
+        svg {
+          cursor: pointer;
+          margin: 0 0 0 -7%;
+        }
+      }
+      .img-ct {
+        margin: 5px 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .data {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    .price-ct {
+      align-self: flex-end;
+      background: url("../img/card-of-pet/price.png") no-repeat 100% 100%;
+      background-size: cover;
+      margin: 0 0 25px;
+      p {
+        padding: 34px 26px 31px 18px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 27px;
+        font-weight: 600;
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+    .tug {
+      background-color: #f2f6f8;
+      border-radius: 2px;
+      padding: 12px;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      margin: 5px 0;
+      .desc-ct {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 0 20px;
+      }
+      p {
+        color: #868686;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0 18px 0 0;
+        align-self: center;
+      }
+      svg {
+        align-self: center;
+        fill: #868686!important;
+      }
+      .btn-ct {
+        cursor: pointer;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: inset 0 -2px 0 #99ba2f;
+        background-color: #abcf36;
+        border-radius: 2px;
+        padding: 0 0 0 8px;
+        p {
+          align-self: center;
+          color: #ffffff;
+          font-family: 'SegoeUI-Semibold', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          margin: 0;
+        }
+        .icon-ct {
+          background-color: #99ba2f;
+          padding: 8px;
+          border-radius: 0 2px 2px 0;
+          svg {
+            fill: #fff;
+            align-self: center;
+          }
+        }
+      }
+    }
+    .add-favorite {
+      border: 1px solid #ff4a4a;
+      border-radius: 2px;
+      display: flex;
+      margin: 5px 0 0;
+      justify-content: flex-end;
+      padding: 12px 10px;
+      cursor: pointer;
+      &:hover {
+        opacity: .5;
+      }
+      p {
+        color: #ff4a4a;
+        font-family: 'SegoeUI-Semibold', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        align-self: center;
+        margin: 0 15px 0 0;
+      }
+      svg {
+        align-self: center;
+        fill: #ff4a4a;
+      }
+    }
+  }
+}
